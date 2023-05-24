@@ -1,0 +1,23 @@
+{
+  "name": "ot-serve",
+  "version": "0.0.0",
+  "description": "Realtime database backend based on Operational Transformation (OT)",
+  "main": "lib/server/index.js",
+  "dependencies": {
+     
+  },
+  "devDependencies": {},
+  "files": [
+    "lib/",
+    "test/"
+  ],
+  "scripts": {
+    
+  },
+  "repository": {
+    "type": "git"
+  },
+  "author": "Nate Smith and Joseph Gentle",
+  "license": "MIT",
+  "__npminstall_done": "Thu Mar 31 2022 15:07:26 GMT+0800 (中国标准时间)"
+}

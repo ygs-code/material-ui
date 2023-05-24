@@ -1,0 +1,42 @@
+.form-page {
+  display: flex;
+}
+
+.form-page-component {
+  width: 100%;
+  height: auto;
+  overflow: visible;
+  flex: 1;
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  -ms-box-flex: 1;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-content: space-between;
+  align-content: space-between;
+
+  .form-box {
+    width: 100%;
+    height: auto;
+    overflow-y: visible;
+  }
+
+  .footer {
+    width: 100%;
+
+    .button-box {
+      display: inline-block;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px 0;
+      margin: 0 auto;
+
+      button {
+        margin: 0 8px;
+      }
+    }
+  }
+}

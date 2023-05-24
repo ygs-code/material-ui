@@ -1,0 +1,123 @@
+.tree-picker {
+  width: 900px;
+
+  &-color {
+    color: #1890ff;
+  }
+
+  .ant-modal-body {
+    padding: 0;
+  }
+
+  &-select {
+    display: inline-block;
+    // margin: 0 5px;
+    margin-right: 10px;
+
+    span {
+      color: #1890ff;
+    }
+  }
+
+  &-select-all {
+    cursor: pointer;
+  }
+
+  &-content {
+    height: 500px;
+    width: 100%;
+    // border: 1px solid     #f0f0f0;
+
+    .tree-content {
+      > div {
+        width: 50%;
+        height: 500px;
+        overflow-y: auto;
+        display: inline-block;
+      }
+
+      > div:nth-child(1) {
+        box-sizing: border-box;
+        border-right: 1px #f0f0f0 solid;
+        height: 500px;
+
+        .tree-box {
+          padding: 10px 0 10px 10px;
+          box-sizing: border-box;
+        }
+      }
+
+      .header {
+        width: 100%;
+        padding: 0 15px;
+        box-sizing: border-box;
+        border-bottom: 1px solid #f0f0f0;
+        overflow: visible;
+        min-height: 35px;
+
+        > div:nth-child(1) {
+          float: left;
+          height: 35px;
+          line-height: 35px;
+        }
+
+        > div:nth-child(2) {
+          float: right;
+          height: 35px;
+          line-height: 35px;
+        }
+
+        .delete {
+          cursor: pointer;
+
+          svg {
+            margin-top: -7px;
+          }
+        }
+      }
+
+      .site-tree-search-value {
+        color: #f50;
+      }
+
+      .selected-tree {
+        color: #009e96;
+      }
+
+      .tree-content-list {
+        .ant-list-item {
+          padding: 0 10px 0 20px !important;
+          box-sizing: border-box;
+
+          .list-text {
+            width: 100%;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            line-height: 35px;
+            height: 35px;
+          }
+
+          .ant-list-item-action {
+            position: relative;
+
+            li {
+              position: relative;
+              top: 5px;
+            }
+          }
+        }
+
+        .ant-list-item:last-child {
+          border-bottom: 1px solid #f0f0f0;
+        }
+      }
+
+      .search {
+        width: 100%;
+        padding: 5px 0;
+        box-sizing: border-box;
+      }
+    }
+  }
+}
